@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #99ff99;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  align-items: center;
+}
+
+.logo-rock {
+  width: 40px;
+}
+
+.logo-Terra {
+  width: 90px;
+  height: 64px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttonHeader {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: rgb(17, 124, 3);
+  cursor: pointer;
+  transition: 0.6s;
+}
+.buttonHeader:hover {
+  border-color: #5fdd24;
+}
+.h1 {
+  text-align: center;
+}
+.contanier {
+  background-image: url(imagens/buda-backgroud.jpg);
+  min-height: 100vh;
+  display: flex;
+  gap: 0px 150px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.item {
+  color: #99ff99;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  font-size: 20px;
+  text-align: center;
+}
+.img {
+  width: 220px;
+  height: 140px;
+}

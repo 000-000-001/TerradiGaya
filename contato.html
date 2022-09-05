@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TerraDeGaya</title>
+    <link rel="shortcut icon" href="imagens/Buddha.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="contanier">
+      <header class="header">
+        <img src="imagens/logo.png" alt="logo-header" class="logoNavBar" />
+      <nav>
+        <div class="headerBtnGroup">
+        <a class="a"href="index.html">Início</a>
+        <a class="a"href="quemsomos.html"> Quem somos?</a>
+        <a class="a"href="contato.html">Agendamentos</a>
+        </div>
+      </nav>
+   
+    </header>
+    <section>
+      <h1 class="sectionTitle" id="backToTop">Agenda</h1>
+      <br>
+      <div>
+        <p class="li" >Acredito no bem estar do corpo e da mente.</p>
+      </div>
+      <br>    
+     
+      <p class="li">Para agendamentos:</p>
+        
+    </section>
+     <section class="li">
+      <form>
+        <div>
+          <label for="Nome">Nome:</label>
+          <input type="text" id="name" name="name" required /> -
+          <label for="email">E-mail:</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <br />
+        <div class="li">
+          <label for="agenda">Escolha sua data na agenda:</label>
+          <input class="li"
+            type="date"
+            id="agenda"
+            name="agenda"
+            min="2022-04-01"
+            max="2022-12-20"
+            required
+            type="submit" 
+          />
+          <span class="validity"></span>
+          <input class="li" type="submit" />
+        </div>
+      </form>
+    </section>
+    <br />
+ 
+    <section>
+      <h1 class="li">Contatos</h1>
+      <div>
+        <li class="li">
+          <i class="fa fa-envelope"></i>
+          <a href="mailto:contato@terradigaya.com.br" target="_blank"
+            >contato@terradigaya.com.br</a
+          >
+        </li>
+        <br />
+        <li class="li">
+          <a
+            href="https://api.whatsapp.com/send?phone=551144850597"
+            target="_blank"
+            ><strong>+55 11 4485-0597</strong></a
+          >
+        </li>
+      </div>
+    </section>
+  </body>
+</html>
